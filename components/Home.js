@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../shared/Button';
 
 export default function Home(props) {
   // placeholder for logo, need help, login button, hamburger icon for menu
@@ -18,7 +19,8 @@ export default function Home(props) {
           <div className="rowContainer">subtitle goes here</div>
           <div className="rowContainer">dropdown goes here</div>
           <div className="rowContainer">
-            Get started + arrow button goes here
+            Get started <br />
+            <Button />
           </div>
         </div>
         <div className="columnContainer">image goes here</div>
